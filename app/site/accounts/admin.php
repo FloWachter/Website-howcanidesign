@@ -8,7 +8,6 @@ language: en
 role: admin
 history:
   - how-to-empathize
-  - how-to-define-a-problem
-  - how-to-ideate-a-problem
+  - how-to-implement/fibonacci-for-design
   - blog
   - home

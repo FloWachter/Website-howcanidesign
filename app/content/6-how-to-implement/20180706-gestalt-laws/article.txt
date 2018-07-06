@@ -1,0 +1,19 @@
+Title: The Gestalt Laws
+
+----
+
+Date: 2018-07-06
+
+----
+
+Text: 
+
+####What are Gestalt Principles?
+The Gestalt Principles are a set of laws arising from 1920s’ psychology, describing how humans typically see objects by grouping similar elements, recognizing patterns and simplifying complex images. Designers use these to engage users via powerful -yet natural- “tricks” of perspective and best practice design standards.
+(link: https://www.interaction-design.org/literature/topics/gestalt-principles class:article-date text: Read more )
+
+(image: gestalt_law_img.jpg )
+(link: https://medium.muz.li/gestalt-principles-in-ui-design-6b75a41e9965 class:article-date text: Image reference )
+
+(image: gestalt_princ_img.jpg )
+(link: https://uxknowledgebase.com/gestalt-principles-part-1-d021e23de553 class:article-date text: Image reference )
