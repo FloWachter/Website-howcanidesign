@@ -1,0 +1,5 @@
+Title: Blog
+
+----
+
+Text: This is the blog ...

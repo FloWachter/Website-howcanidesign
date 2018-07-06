@@ -1,0 +1,15 @@
+Title: UI Cheat Sheet
+
+----
+
+Date: 2018-07-02
+
+----
+
+Text: 
+
+#About Face — The Essentials of Interaction Design (2014)
+
+Alan Cooper, Robert Reimann, David Cronin, Christopher Noessel-
+
+(file: book_faces-big_summery.pdf text: Open PDF)

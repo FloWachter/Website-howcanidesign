@@ -1,0 +1,15 @@
+Title: About
+
+----
+
+Text: 
+
+Hej, Hallo, Hi, ....
+This website is just an experiment which I am working on for years now. The content should help people to orientate in Design and methodology. The content, for now, will only contain some sketches and information about stuff which was helpful for me.
+Maybe, some stuff is pure useless and some stuff is super helpful but this is the spirit to find out what works and how I should structure it to make all this stuff useful.
+
+If you have material, which is useful for this page please not hesitate to contact me.
+
+(email: info@howcanidesign.com text: info@howcanidesign.com)
+
+(link:http://florianwachter.com/ text: Florianwachter.com popup: yes)

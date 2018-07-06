@@ -1,0 +1,21 @@
+Title: How Can I Design
+
+----
+
+Author: Florian Wachter
+
+----
+
+Description: How Can I Design, Design Wiki Website, Experiement
+
+----
+
+Copyright: 
+
+----
+
+Footer: 
+
+----
+
+Navigationtype: navoffcanvas
