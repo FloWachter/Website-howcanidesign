@@ -26,14 +26,14 @@ $status = $comments->process();
 				<?php e($comment->isLinkable(), '</a>') ?>
 			</h3>
 			
-			<aside class="comment-info">
+			<!-- <aside class="comment-info">
 				<?php if ($comment->isPreview()): ?>
 					<p>This is a preview of your comment. If you’re happy with it, <a href="#comments-submit" title="Jump to the submit button">submit</a> it to the public.</p>
 				<?php else: ?>
 					<p>Posted on <?php echo $comment->date('Y-m-d') ?>.
 						<a href="#comment-<?php echo $comment->id() ?>" title="Permalink" area-label="Permalink">#</a></p>
 				<?php endif ?>
-			</aside>
+			</aside> -->
 			
 			<?php echo $comment->message() ?>
 		</article>

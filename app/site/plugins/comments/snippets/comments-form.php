@@ -25,25 +25,43 @@ $status = $comments->process();
 			<?php echo $status->getMessage() ?>
 		</p>
 	<?php endif ?>
-	
-	<form action="#comment-<?php echo $comments->nextCommentId() ?>" method="post" accept-charset="utf-8" role="form" aria-labelledby="comments-form-headline">
-		<label for="comments-field-name">Name<?php if ($comments->requiresName()): ?><abbr title="required">*</abbr><?php endif ?></label>
-		<input id="comments-field-name" type="text" name="<?php echo $comments->nameName() ?>" value="<?php echo $comments->nameValue() ?>" maxlength="<?php echo $comments->nameMaxLength() ?>" <?php e($comments->requiresName(), 'required') ?>>
+
+	<form class="comments--form" action="#comment-<?php echo $comments->nextCommentId() ?>" method="post" accept-charset="utf-8" role="form" aria-labelledby="comments-form-headline">
+			
+	<!-- NAME INPUT -->
+      <div class="form-group">
+			
+			<input 	class="form-control" 
+					id="comments-field-name" 
+					type="text" 
+					name="<?php echo $comments->nameName() ?>" 
+					value="<?php echo $comments->nameValue() ?>" 
+					maxlength="<?php echo $comments->nameMaxLength() ?>" <?php e($comments->requiresName(), 'required') ?>>
+			
+			<label 	class="form-control-placeholder" 
+					for="comments-field-name">Name<?php if ($comments->requiresName()): ?>
+						*<?php endif ?>
+			</label>
+			
+		</div>
+
 		
-		<label for="comments-field-email">Email Address<?php if ($comments->requiresEmailAddress()): ?><abbr title="required">*</abbr><?php endif ?></label>
+		<!-- <label class="comments--form--label"for="comments-field-email">Email Address<?php if ($comments->requiresEmailAddress()): ?>*<?php endif ?></label>
 		<input id="comments-field-email" type="email" name="<?php echo $comments->emailName() ?>" value="<?php echo $comments->emailValue() ?>" maxlength="<?php echo $comments->emailMaxLength() ?>" <?php e($comments->requiresEmailAddress(), 'required') ?>>
-		
-		<label for="comments-field-website">Website</label>
+		 -->
+		<!-- <label class="comments--form--label"for="comments-field-website">Website</label>
 		<input id="comments-field-website" type="url" name="<?php echo $comments->websiteName() ?>" value="<?php echo $comments->websiteValue() ?>" maxlength="<?php echo $comments->websiteMaxLength() ?>">
-		
+		 -->
 		<?php if ($comments->isUsingHoneypot()): ?>
 			<div style="display: none" hidden>
 				<input type="text" name="<?php echo $comments->honeypotName() ?>" value="<?php echo $comments->honeypotValue() ?>">
 			</div>
 		<?php endif ?>
 		
-		<label for="comments-field-message">Message<abbr title="required">*</abbr></label>
-		<textarea id="comments-field-message" name="<?php echo $comments->messageName() ?>" maxlength="<?php echo $comments->messageMaxLength() ?>" required><?php echo $comments->messageValue() ?></textarea>
+      <div class="form-group">
+		<textarea class="form-control"  id="comments-field-message" name="<?php echo $comments->messageName() ?>" maxlength="<?php echo $comments->messageMaxLength() ?>" required><?php echo $comments->messageValue() ?></textarea>
+		<label class="form-control-placeholder" for="comments-field-message">Message*</label>		
+		</div>
 		
 		<input type="hidden" name="<?php echo $comments->sessionIdName() ?>" value="<?php echo $comments->sessionId() ?>">
 		

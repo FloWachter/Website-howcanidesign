@@ -1,0 +1,41 @@
+.form-group {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.form-control{
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid $c3;
+}
+
+.form-control-placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0px 0px 0px 6px;
+  transition: all 200ms;
+  opacity: 0.5;
+}
+
+.form-control:focus + .form-control-placeholder,
+.form-control:valid + .form-control-placeholder {
+  font-size: 75%;
+  transform: translate3d(0, -100%, 0);
+  opacity: 1;
+}
+
+
+
+input[type=submit] {
+  
+  border: 0;
+  border-bottom: 3px solid #1fde91;
+
+  &:hover {
+    color: inherit;
+    border-color: $ca2;
+  }
+
+}

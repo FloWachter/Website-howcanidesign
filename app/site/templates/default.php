@@ -1,27 +1,29 @@
 <?php snippet('header') ?>
 
 <div class="wrap-fluid">
-
     <article class="article index">
-
         <header>
             <h1><?= $page->title()->kirbytext() ?></h1>
         </header>
-
         <div class="text">
             <?= $page->text()->kirbytext() ?>
         </div>
-
         <?php if( page('blog') ): ?>
             <br />
-
             <p class="article-date">
                 <?= $page->date('F jS, Y') ?>
             </p>
             
-            <div class="comments">
-                    <?php snippet('comments') ?>
+
+            <!-- COMMENTS -->            
+            <div class="comments-form">
+              <?php snippet('comments-form') ?>
             </div>
+            <div class="comments-list">
+                <?php snippet('comments-list') ?>
+            </div>
+
+
         <?php endif; ?>
 
     </article>
