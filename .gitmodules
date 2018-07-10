@@ -1,0 +1,3 @@
+[submodule "app/site/plugins/focus"]
+	path = app/site/plugins/focus
+	url = https://github.com/flokosiol/kirby-focus.git

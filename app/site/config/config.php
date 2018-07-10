@@ -30,7 +30,6 @@ of the system, please check out http://getkirby.com/docs/advanced/options
 */
 
 
-
-
-
-
+c::set('focus.field.key', 'betterfocuskey');
+c::set('focus.field.fullwidth', true);
+// c::set('focus.filename.hash', true);

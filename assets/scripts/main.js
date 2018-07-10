@@ -27,7 +27,24 @@ $(document).ready(function() {
 		 kompactInit();
     });
 
+
+
+// --------------------------------------------------
+// Light Box 
+// --------------------------------------------------
+
+$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+    console.log('******activate lightbox');
+});
+
+
+
+
+
 }); // document.ready
+
 
 
 function kompactInit() {
@@ -50,4 +67,9 @@ function kompactInit() {
 		$('html, body').animate({ scrollTop: 0 }, 'fast');
 		$('html').toggleClass('nav-open');
 	});
+
+
+
 } // kompactInit
+
+

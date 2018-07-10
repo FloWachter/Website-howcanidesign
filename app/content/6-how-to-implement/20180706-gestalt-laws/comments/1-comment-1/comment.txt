@@ -1,0 +1,13 @@
+Cid: 1
+
+----
+
+Date: 2018-07-07 10:12:28
+
+----
+
+Text: Example massage
+
+----
+
+Name: name

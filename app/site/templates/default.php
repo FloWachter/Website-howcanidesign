@@ -15,7 +15,13 @@
             </p>
             
 
-            <!-- COMMENTS -->            
+            
+
+
+        <?php endif; ?>
+
+    </article>
+    <!-- COMMENTS -->            
             <div class="comments-form">
               <?php snippet('comments-form') ?>
             </div>
@@ -23,14 +29,9 @@
                 <?php snippet('comments-list') ?>
             </div>
 
-
-        <?php endif; ?>
-
-    </article>
-
     <hr />
 
-    <?php if( page('blog') ): ?>
+    <?php if( page() ): ?>
         <?php if($page->hasNextVisible() ): ?>
             <strong>Read Next</strong> <br />
             <a href="<?= $page->nextVisible()->url(); ?>" class="h1"><?= $page->nextVisible()->title(); ?></a> &rarr;

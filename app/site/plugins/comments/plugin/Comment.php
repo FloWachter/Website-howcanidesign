@@ -24,7 +24,9 @@ class Comment
 	 * @var integer
 	 */
 	protected $id;
-	
+
+
+
 	/**
 	 * Name of the comment author. `null` iff no email address was provided by
 	 * the comment author.This value does not contain HTML tags but may still
@@ -284,7 +286,19 @@ class Comment
 	{
 		return $this->id;
 	}
-	
+
+
+
+
+	// public function path()
+	// {
+	// 	//return $this->path();
+	// 	return $page->files()->find('myfile.pdf')->url();
+	// }
+
+
+
+
 	/**
 	 * HTML escaped name of the comment author. `""` iff no name was specified.
 	 *

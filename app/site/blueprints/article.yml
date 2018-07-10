@@ -2,10 +2,20 @@ title: Article
 
 pages: false
 
+files:
+  fields:
+    focus:
+      label: My focus field
+      type: focus
+
 fields:
   title:
     label: Title
     type:  title
+
+  cover_image:
+     label: Cover images
+     type: image
 
   date:
     icon: calendar

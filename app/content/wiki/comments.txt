@@ -1,0 +1,13 @@
+Title: WIKI
+
+----
+
+Text: 
+
+#Headline H1
+##Headline H2
+###Headline H3
+####Headline H4
+
+(Links: LINK text: SHOWN_TEXT)
+(imageslider: UPLOADED_IMG_NAME gallery: GALLERY_NAME  caption:TEXT_WHICH_WILL_BE_SHOWN_IN_THE_LIGHTBOX)

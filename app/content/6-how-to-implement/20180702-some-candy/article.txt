@@ -13,3 +13,7 @@ Text:
 Alan Cooper, Robert Reimann, David Cronin, Christopher Noessel-
 
 (file: book_faces-big_summery.pdf text: Open PDF)
+
+----
+
+Cover-image: 41awgg6a8el.sx400-bo1-204-203-200.jpg

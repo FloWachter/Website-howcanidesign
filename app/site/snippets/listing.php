@@ -2,7 +2,10 @@
     $articles = $page->children()->visible()->sortBy('date', 'desc');
 ?>
 <section>
+    
+    <!-- *********************************************** -->
     <!-- BLOG ENTIES -->
+    <!-- *********************************************** -->
     <?php if($articles->count() && $page != $site->homePage()): ?>
         <?php foreach($articles as $article): ?>
             <article class="article index">
@@ -26,7 +29,9 @@
         <?php endforeach ?>
     <?php endif ?>
 
+    <!-- *********************************************** -->
     <!-- NO ENTRY BLOG -->
+    <!-- *********************************************** -->
     <?php if(!$articles->count() && $page != $site->homePage()): ?>
         <article class="article index">
             <header>
@@ -38,10 +43,11 @@
                  <p>This blog does not contain any articles yet.</p>
             </div>
         </article>
-       
     <?php endif ?>
 
+    <!-- *********************************************** -->
     <!-- HOME PAGE -->
+    <!-- *********************************************** -->
     <?php if(!$articles->count() && $page == $site->homePage()): ?>
         <?php 
             $lastArticles = $site->pages()->children()->sortBy('date', 'desc'); 
@@ -55,10 +61,18 @@
                     <h2>
                         <a href="<?= $article->url() ?>" class="al"><?= $article->title()->html() ?></a>
                     </h2>
+
+                    <?php
+                        $image = $article->image($article->cover_image());    
+                        if($image):     
+                    ?>
+                        <img src="<?= $image->focusCrop(400, 100)->url() ?>" class="thumb-home" alt="">
+                    <?php endif ?>
+                    
                 </header>
                 <div class="text">
                     <p>
-                        <?= $article->text()->kirbytext()->excerpt(50, 'words') ?>
+                        <?= $article->text()->kirbytext()->excerpt(20, 'words') ?>
                         <a href="<?= $article->url() ?>" class="al article-more">&rarr;</a>
                     </p>
                 </div>

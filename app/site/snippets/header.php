@@ -7,10 +7,14 @@
     <meta name="description" content="<?= $site->description()->html() ?>">
     <meta name="twitter:image" content="http://themes.yordanoff.net/kompact/kompact-01.gif" />
     <meta name="og:image" content="http://themes.yordanoff.net/kompact/kompact-01.gif" />
+    
     <link rel="shortcut icon" href="<?php echo $site->url() ?>/assets/images/favicon.ico" type="image/x-icon" />
+    
     <?= css('assets/css/main.css') ?>
-    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <?= js('assets/scripts/vendor/jquery_v331.js') ?>
+    <?= js('assets/scripts/vendor/fancybox.js') ?>
     <?= js('assets/scripts/vendor/animsition.min.js') ?>
+    
 </head>
 <body class="<?= $site->navigationtype() ?>">
 
