@@ -11,7 +11,8 @@
     <link rel="shortcut icon" href="<?php echo $site->url() ?>/assets/images/favicon.ico" type="image/x-icon" />
     
     <?= css('assets/css/main.css') ?>
-    <?= js('assets/scripts/vendor/jquery_v331.js') ?>
+    <?= js('assets/scripts/vendor/jquery_v331.js') ?> 
+    <!-- <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
     <?= js('assets/scripts/vendor/fancybox.js') ?>
     <?= js('assets/scripts/vendor/animsition.min.js') ?>
     

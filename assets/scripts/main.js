@@ -22,10 +22,27 @@ $(document).ready(function() {
 		onLoadEvent: true,
 		browser: [ 'animation-duration', '-webkit-animation-duration'],
 		overlay : false,
-		transition: function(url){ window.location.href = url; }
-	}).one('animsition.inStart',function(){
-		 kompactInit();
-    });
+		transition: function(url){ 
+			window.location.href = url; 
+		}
+	});
+
+
+
+	$(document).on('click', '.hamburger-container',function(e) {
+		if( $('.menu').hasClass('animate') ) {
+			$('.menu, .bar').removeClass('animate');
+		} else {
+			$('.menu, .bar').addClass('animate');
+		}
+	});
+
+	$(document).on('click','.hamburger-menu', function(e){
+		e.preventDefault();
+		$('html, body').animate({ scrollTop: 0 }, 'fast');
+		$('html').toggleClass('nav-open');
+	});
+
 
 
 
@@ -46,30 +63,5 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
 }); // document.ready
 
 
-
-function kompactInit() {
-	// --------------------------------------------------
-	// Hamburger on Mobile
-	// --------------------------------------------------
-	$('.hamburger-container').on('click', function() {
-		if( $('.menu').hasClass('animate') ) {
-			$('.menu, .bar').removeClass('animate');
-		} else {
-			$('.menu, .bar').addClass('animate');
-		}
-	});
-
-	// --------------------------------------------------
-	// Offcanvas Navigation
-	// --------------------------------------------------
-	$('.hamburger-menu').on('click', function(e){
-		e.preventDefault();
-		$('html, body').animate({ scrollTop: 0 }, 'fast');
-		$('html').toggleClass('nav-open');
-	});
-
-
-
-} // kompactInit
 
 

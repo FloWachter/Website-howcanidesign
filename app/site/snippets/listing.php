@@ -63,7 +63,8 @@
                     </h2>
 
                     <?php
-                        $image = $article->image($article->cover_image());    
+                        $image = $article->image($article->cover_image());
+                            $image->bla();
                         if($image):     
                     ?>
                         <img src="<?= $image->focusCrop(400, 100)->url() ?>" class="thumb-home" alt="">

@@ -29,7 +29,22 @@ of the system, please check out http://getkirby.com/docs/advanced/options
 
 */
 
+/*
 
+---------------------------------------
+kirby Debug
+---------------------------------------
+Link: https://getkirby.com/docs/developer-guide/troubleshooting/debugging
+*/
+c::set('debug', true);
+
+/*
+
+---------------------------------------
+kirby Focus  - Plugin
+---------------------------------------
+Link: https://github.com/flokosiol/kirby-focus
+*/
 c::set('focus.field.key', 'betterfocuskey');
 c::set('focus.field.fullwidth', true);
-// c::set('focus.filename.hash', true);
+//c::set('focus.filename.hash', true);
