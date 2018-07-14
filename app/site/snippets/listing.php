@@ -13,6 +13,16 @@
                     <h2>
                         <a href="<?= $article->url() ?>" class="al"><?= $article->title()->html() ?></a>
                     </h2>
+
+                    <?php
+                        $image = $article->image($article->cover_image());
+                            $image->bla();
+                        if($image):     
+                    ?>
+                    <figure>
+                        <img src="<?= $image->focusCrop(400, 100)->url() ?>" class="thumb-home" alt="">
+                    </figure>
+                    <?php endif ?>
                 </header>
                 <div class="text">
                     <p>
@@ -61,7 +71,6 @@
                     <h2>
                         <a href="<?= $article->url() ?>" class="al"><?= $article->title()->html() ?></a>
                     </h2>
-
                     <?php
                         $image = $article->image($article->cover_image());
                             $image->bla();
@@ -69,7 +78,6 @@
                     ?>
                         <img src="<?= $image->focusCrop(400, 100)->url() ?>" class="thumb-home" alt="">
                     <?php endif ?>
-                    
                 </header>
                 <div class="text">
                     <p>

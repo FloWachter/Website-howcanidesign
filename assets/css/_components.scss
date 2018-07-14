@@ -9,6 +9,9 @@
 // Variables
 @import '_variables';
 
+//plugin
+@import 'plugins/_comments';
+
 // Components
 @import 'components/_grid';
 @import 'components/_typography';
@@ -16,12 +19,8 @@
 @import 'components/_elements';
 @import 'components/_fancybox';
 @import 'components/_animsition';
+@import 'components/_search';
 
-//plugin
-@import 'plugins/_comments';
 
 // Make sure this is last to override anything else :)
 @import '_helpers';
-
-
-

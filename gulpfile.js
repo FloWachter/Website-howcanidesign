@@ -11,8 +11,8 @@ var sass                = require('gulp-ruby-sass');
 var sourcemaps          = require('gulp-sourcemaps');
 var livereload          = require('gulp-livereload');
 var php                 = require('gulp-connect-php');
-var svgstore            = require('gulp-svgstore');
-var svgmin              = require('gulp-svgmin');
+
+
 var path                = require('path');
 var rename              = require('gulp-rename');
 var clean               = require('gulp-clean');
@@ -52,21 +52,6 @@ gulp.task('uglifyjs', function() {
     .pipe(livereload());
 });
 
-// VendorJS fused to one file
-// gulp.task('vendorJS', function() {
-//     return gulp.src([
-//         devAssets + 'scripts/vendor/*.js',
-//     ])
-//     .pipe(plumber({
-//         errorHandler: onError
-//     }))
-//     .pipe(uglify('vendor.js', {
-//         compress: true,
-//         outSourceMap: true
-//     }))
-//     .pipe(gulp.dest(kirbyAssets + 'scripts/vendor/'))
-//     .pipe(livereload());
-// });
 
 // VendorJS fused to files
 gulp.task('vendorJS', function() {
@@ -80,32 +65,18 @@ gulp.task('vendorJS', function() {
     .pipe(livereload());
 });
 
-// -------------- TESTING ---------------------
-
-// gulp.task('compress', function (cb) {
-//   pump([
-//         gulp.src('lib/*.js'),
-//         uglify(),
-//         gulp.dest('dist')
-//     ],
-//     cb
-//   );
-// });
-
-// --------------------------------------------
-
-
-
 // Sass
 gulp.task('sass', function() {
     return sass('./assets/css/main.scss', { sourcemap: true, style: 'compressed' })
     .pipe(plumber({
         errorHandler: onError
     }))
+
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('./app/assets/css/'))
     .pipe(livereload());
 });
+
 
 // autoprefix
 gulp.task('autoprefixer', function () {
@@ -126,41 +97,11 @@ gulp.task('reload', function() {
     livereload.reload('PHP');
 });
 
-// SVG
-gulp.task('svgstore', function () {
-    return gulp
-        .src(devAssets + 'svg/**/*.svg')
-        .pipe(rename({prefix: 'svg-'}))
-        .pipe(svgmin(function (file) {
-            var prefix = path.basename(file.relative, path.extname(file.relative));
-            return {
-                plugins: [{
-                    cleanupIDs: {
-                        prefix: prefix + '-',
-                        minify: true
-                    }
-                }]
-            }
-        }))
-        .pipe(svgstore())
-        .pipe(gulp.dest(kirbyAssets + 'svg/'));
-});
-
-gulp.task('svgcopy', function () {
-    return gulp
-        .src(devAssets + 'svg/**/*.svg')
-        .pipe(plumber({
-            errorHandler: onError
-        }))
-        .pipe(gulp.dest(kirbyAssets + 'svg/'));
-});
-
 // copy fonts
 gulp.task('copyfonts',['clean-fonts'], function() {
    gulp.src(devAssets + 'fonts/**/*.{ttf,woff,eot,svg,woff2,css}')
    .pipe(gulp.dest(kirbyAssets +'fonts/'));
 });
-
 
 // clean fonts
 gulp.task('clean-fonts', function () {
@@ -169,15 +110,11 @@ gulp.task('clean-fonts', function () {
 });
 
 
-
-
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////
 //////////     SPEED TESTING
 //////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
 
 gulp.task('psi-desktop', function (cb) {
     psi.output(site, { nokey: 'true', strategy: 'desktop' }).then(function () {
@@ -190,8 +127,6 @@ gulp.task('psi-mobile', function (cb) {
         cb();
     });
 });
-
-
 
 gulp.task('psi', function (cb) {
   return sequence(
@@ -245,9 +180,6 @@ gulp.task('default', function() {
     // Watch PHP
     gulp.watch(['app/site/**/*.php'], ['reload']);
 
-    // Watch SVG
-    gulp.watch([devAssets + 'svg/**/*.svg'], ['svgcopy']);
-
     // Watch Fonts
     gulp.watch([devAssets + 'fonts/**/*'], ['copyfonts']);
 
@@ -257,5 +189,5 @@ gulp.task('default', function() {
 
 // Manually build all
 gulp.task('build', function() {
-    gulp.start('uglifyjs', 'sass', 'svgcopy', 'copyfonts', 'vendorJS', 'autoprefixer');
+    gulp.start('uglifyjs', 'sass', 'copyfonts', 'vendorJS', 'autoprefixer');
 });
