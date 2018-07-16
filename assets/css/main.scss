@@ -11,6 +11,7 @@ html {
 }
 body {
 	color: $c2;
+	z-index: 0;
 }
 
 img {
@@ -40,20 +41,34 @@ a {
 		color: inherit;
 	}
 }
+
 #canvas a {
 	color: $c1;
+	background-color: $bgr1;
+
+}
+
+#container {
+	z-index: 3;
+	background-color: $bgr1;
 }
 // ---------------------------------------------------------
 // Offcanvas Menu
 // ---------------------------------------------------------
 .nav-open {
-	overflow: hidden;
+	//overflow: hidden;
+	aside {
+		opacity: 1;
+		transform: translate3d(-$offcanvasMenu, 0, 0);
+	}
 }
 
 #canvas {
 	background: #fff;
+	padding-top: $sp1;
+	z-index: 2;
 	height: 100%;
-	position: absolute;
+	//position: absolute;
 	transition: transform .4s cubic-bezier(0.2,0.3,0.25,0.9);
 	.nav-open & {
 		transform: translate3d(-$offcanvasMenu, 0, 0);
@@ -61,70 +76,45 @@ a {
 }
 
 aside {
-	position: absolute;
+	position: fixed;
 	height: 100%;
 	top: 0;
-	right: 0;
+	right: -$offcanvasMenu;
 	bottom: 0;
 	width: $offcanvasMenu;
 	padding: 20px;
-	z-index: -1;
+	z-index: 1;
 	background: $c1;
-}
+	
+	opacity: 0;
+	
+	transition: transform .4s cubic-bezier(0.2,0.3,0.25,0.9), opacity .2s cubic-bezier(0.2,0.3,0.25,0.9);	
 
-
-.no-js,
-.navstandard {
-	.nav-open {
-		overflow: auto;
-	}
-	aside {
-		position: absolute;
-		width: auto;
-		height: auto;
-		top: 0;
-		right: 0;
-		bottom: auto;
-		z-index: 1100;
-		padding: $sp1/2 $sp1 $sp1/2 0;
-		background: none;
-		.menu {
-			float: right;
-			color: $c1;
-			right: $sp1;
-			background: none;
-			margin-top: 5px;
-			li {
-				float: left;
-				padding: 0;
-			}
-			a {
-				color: $c1;
-				float: left;
-				padding: 0 0 0 $sp2;
-			}
-		}
-	}
-	.header .hamburger-container {
-		display: none;
-	}
 }
 
 // ---------------------------------------------------------
 // Header
 // ---------------------------------------------------------
 .header {
-	position: relative;
+
+	//position: relative;
+	position: fixed;
 	z-index: 1000;
 	width: 100%;
 	margin: 0;
-	padding: $sp1/2 0;
-	margin-bottom: $sp2;
+	padding: $sp1/4 0 $sp1/4 0;
+	//margin-bottom: $sp2;
 	font-size: $fs3;
 	color: $c1;
 	display: flex;
 	align-items: center;
 	align-content: center;
+	background-color: rgba(255,255,255,0.99);
+	box-shadow: 0 3px 6px rgba(0,0,0,0.06), 0 3px 6px rgba(0,0,0,0.13);
+	transition: transform .4s cubic-bezier(0.2,0.3,0.25,0.9);
+	.nav-open & {
+		transform: translate3d(-$offcanvasMenu, 0, 0);
+	}
 
 	.logo {
 		float: left;
@@ -190,7 +180,6 @@ aside ul.menu {
 	
 }
 
-
 // ---------------------------------------------------------
 // Footer
 // ---------------------------------------------------------
@@ -205,17 +194,14 @@ aside ul.menu {
 	}
 }
 
-
 // ---------------------------------------------------------
 // Articles
 // ---------------------------------------------------------
 .article {
-	// background: red;
 	@media #{$bd} {
 		width: 90%;
 	}
 }
-
 .article-date {
 	color: $c3;
 	font-size: $fs3;
@@ -224,8 +210,16 @@ aside ul.menu {
 	border-color: transparent;
 }
 
+.article--tags {
+	margin-top: 4em;
+}
+
+.article--tags--link {
+	margin-right: 1em;
+	font-size: 0.5em;
+}
 // ---------------------------------------------------------
-// Articles
+// IMAGES THUMBS
 // ---------------------------------------------------------
 .thumb-home {
 	margin: 0px ;

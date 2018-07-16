@@ -23,3 +23,7 @@ Siteimage: gestalt_princ_img.jpg
 ----
 
 Cover-image: gestalt_law_img.jpg
+
+----
+
+Tags: laws,methods,math

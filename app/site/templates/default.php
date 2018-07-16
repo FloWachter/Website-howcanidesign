@@ -13,12 +13,22 @@
             <p class="article-date">
                 <?= $page->date('F jS, Y') ?>
             </p>
-            
-
-            
-
-
         <?php endif; ?>
+
+
+        <!-- adding tags on the end of the article for search result -->
+        <div class=article--tags>
+            <h4>Article Tags</h4>
+
+            <?php 
+                $string = preg_replace('/\.$/', '', $page->tags()); 
+                $array = explode(',', $string); 
+                foreach($array as $value) {
+            ?>
+                    <a class="article--tags--link" href="#<?php   echo $value . PHP_EOL; ?>"><?php   echo $value . PHP_EOL; ?></a>
+            <?php }?>
+        </div>
+
 
     </article>
     <!-- COMMENTS -->            

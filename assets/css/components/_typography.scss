@@ -1,14 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Lekton');
-@import url('https://fonts.googleapis.com/css?family=Droid+Serif');
-@import url('https://fonts.googleapis.com/css?family=Muli');
 
-$sans-serif: 'Muli', sans-serif;
-$serif: 'Droid Serif', serif;
-$mono:  'Lekton', monospace;
+$font: 'Roboto', Arial;
 
-$ff1: $sans-serif;
-$ff2: $serif;
-$ff3: $mono;
+$ff1: $font;
+$ff2: $font;
+$ff3: $font;
 
 html {
 	font-family: $ff1;

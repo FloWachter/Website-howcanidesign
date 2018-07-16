@@ -146,4 +146,31 @@
     $remValues: append($remValues, convert-to-rem(nth($values, $i), $base-value));
   }
   @return $remValues;
+
 }
+
+//--------------------------------------------------------------
+// Responsive Design
+//--------------------------------------------------------------
+
+@mixin mobile { //land and portai
+  @media only screen and (max-width: 480px ) {
+    @content;
+  }
+}
+
+@mixin tablet { //land and portai
+  @media only screen and (min-width: 480px ) and (max-width: 970px ) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media only screen and (min-width: 970px ){
+    @content;
+  }
+}
+
+
+
+

@@ -1,12 +1,14 @@
-<div id="morphsearch" class="morphsearch">
-	<form class="morphsearch-form">
-		<input class="morphsearch-input" type="search" placeholder="Search..."/>
-		<button class="morphsearch-submit" type="submit">Search</button>
-	</form>
-	
+<form>
+  <input type="search" name="q" value="<?= esc($query) ?>">
+  <input type="submit" value="Search">
+</form>
 
-	<div class="morphsearch-content"></div>
-	
-
-	<span class="morphsearch-close"></span>	
-</div>
+<ul>
+  <?php foreach($results as $result): ?>
+  <li>
+    <a href="<?= $result->url() ?>">
+      <?= $result->title()->html() ?>
+    </a>
+  </li>
+  <?php endforeach ?>
+</ul>

@@ -17,3 +17,7 @@ Text:
 ----
 
 Cover-image: 1_2laby0j-h42yqcbm9fqmiq.jpg
+
+----
+
+Tags: math,design,laws
