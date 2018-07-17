@@ -33,3 +33,7 @@ fields:
   tags:
     label: Tags
     type: tags
+
+  related:
+    label: Related Articles
+    type: tags    

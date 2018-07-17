@@ -27,3 +27,7 @@ Cover-image: gestalt_law_img.jpg
 ----
 
 Tags: laws,methods,math
+
+----
+
+Related: bla,bla2

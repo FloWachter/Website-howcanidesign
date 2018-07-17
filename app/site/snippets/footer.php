@@ -18,6 +18,9 @@
     </div><!-- #container -->
 </div><!-- #canvas -->
 
+<?= js('assets/scripts/vendor/d3.min.js') ?>
+<?= js('assets/scripts/vendor/search.js') ?>
+
 <?= js('assets/scripts/vendor/animsition.min.js') ?>
 <?= js('assets/scripts/main.js') ?>
 

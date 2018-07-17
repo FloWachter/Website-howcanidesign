@@ -7,8 +7,8 @@ email: florianwachter@gmx.net
 language: en
 role: admin
 history:
+  - how-to-implement/gestalt-laws
   - how-to-implement/some-candy
   - how-to-implement/fibonacci-for-design
-  - how-to-implement/gestalt-laws
   - how-to-implement
   - wiki

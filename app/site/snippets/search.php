@@ -1,7 +1,9 @@
+
+<div class="search wrap-fluid">
 <form>
-  <input type="search" name="q" value="<?= esc($query) ?>">
-  <input type="submit" value="Search">
-</form>
+      <input type="search" name="q" value="<?= esc($query) ?>" placeholder='Start Typing'>
+      <input type="submit" value="Search">
+  </form>
 
 <ul>
   <?php foreach($results as $result): ?>
@@ -12,3 +14,5 @@
   </li>
   <?php endforeach ?>
 </ul>
+
+</div>

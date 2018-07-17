@@ -1,5 +1,6 @@
 <?php
     snippet('header');
+    snippet('search');
 ?>
 
 <div class="wrap-fluid">
@@ -11,5 +12,4 @@
 
     <?php snippet('listing') ?>
 </div>
-
 <?php snippet('footer') ?>

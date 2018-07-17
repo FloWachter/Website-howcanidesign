@@ -30,6 +30,18 @@
         </div>
 
 
+
+
+
+        <div class="article--readlater">
+            <?php echo readlater($page->title(), 'pocket', 'Read later'); ?>
+        </div>
+
+
+
+
+
+
     </article>
     <!-- COMMENTS -->            
             <div class="comments-form">

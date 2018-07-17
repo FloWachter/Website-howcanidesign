@@ -16,6 +16,9 @@
     <?= css('assets/css/main.css') ?>
     <?= js('assets/scripts/vendor/jquery_v331.js') ?> 
     <?= js('assets/scripts/vendor/fancybox.js') ?>
+    
+    
+    
 </head>
 
 <body class="<?= $site->navigationtype() ?>">
@@ -32,6 +35,7 @@
                 <div class="bar"></div>
             </div>
         </div>
+
     </header>
 
 <div id="canvas">
