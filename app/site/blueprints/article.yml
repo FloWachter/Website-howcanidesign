@@ -1,6 +1,6 @@
 title: Article
 
-pages: false
+pages: true
 
 files:
   fields:
@@ -12,6 +12,10 @@ fields:
   title:
     label: Title
     type:  title
+
+  author:
+    label: Autor
+    type:  text
 
   cover_image:
      label: Cover images
@@ -37,3 +41,4 @@ fields:
   related:
     label: Related Articles
     type: tags    
+

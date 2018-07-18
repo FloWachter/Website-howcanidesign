@@ -13,9 +13,11 @@ $articles = $page->children()->visible()->sortBy('date', 'desc');
                     <a href="<?= $article->url() ?>" class="al"><?= $article->title()->html() ?></a>
                 </h2>
                 <?php
-                $image = $article->image($article->cover_image());
-                $image->bla();
-                if($image):     
+
+                
+                if($article->image($article->cover_image())):     
+                    $image = $article->image($article->cover_image());
+                    $image->bla();
                     ?>
                     <figure>
                         <img src="<?= $image->focusCrop(400, 100)->url() ?>" class="thumb-home" alt="">
@@ -70,9 +72,13 @@ $count = 0;
                     <a href="<?= $article->url() ?>" class="al"><?= $article->title()->html() ?></a>
                 </h2>
                 <?php
-                $image = $article->image($article->cover_image());
-                $image->bla();
-                if($image):     
+                
+                
+                
+                if($article->image($article->cover_image())):     
+                    $image = $article->image($article->cover_image());
+                    $image->bla();    
+                
                     ?>
                     <figure>
                         <img src="<?= $image->focusCrop(400, 100)->url() ?>" class="thumb-home" alt="">

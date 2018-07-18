@@ -1,0 +1,29 @@
+Title: teExample-article
+
+----
+
+Autor: 
+
+----
+
+Cover-image: 
+
+----
+
+Date: 2018-07-18
+
+----
+
+Text: TEXT TEXT
+
+----
+
+Tags: text
+
+----
+
+Related: 
+
+----
+
+Author: Florian Wachter
