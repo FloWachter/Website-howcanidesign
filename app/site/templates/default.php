@@ -1,13 +1,8 @@
 <?php snippet('header') ?>
 
 <div class="wrap-fluid">
-    
-
-   <?php snippet('article') ?>
-    
-
-
-<!-- Pagaination -->
+   <?php snippet('listing') ?>
+    <!-- Pagaination -->
     <?php if( page() ): ?>
         <?php if($page->hasNextVisible() ): ?>
             <strong>Read Next</strong> <br />

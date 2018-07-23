@@ -1,6 +1,14 @@
  <article class="article index">
         <header>
             <h1><?= $page->title()->kirbytext() ?></h1>
+            <?php
+                if($page->image($page->cover_image())):     
+                    $image = $page->image($page->cover_image());
+                    ?>
+                    <figure>
+                        <img src="<?= $image->focusCrop(400, 200)->url() ?>" class="thumb-home" alt="">
+                    </figure>
+                <?php endif ?>
         </header>
         <div class="text">
             <?= $page->text()->kirbytext() ?>
@@ -37,12 +45,47 @@
 
     </article>
 
-    <!-- COMMENTS -->            
-            <div class="comments-form">
-              <?php snippet('comments-form') ?>
-            </div>
-            <div class="comments-list">
-                <?php snippet('comments-list') ?>
-            </div>
+
+<!-- COMMENTS -->            
+<div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Write a Comment
+        </button>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        <div class="comments-form">
+            <?php snippet('comments-form') ?>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Comments
+        </button>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">    
+        <div class="comments-list">
+            <?php snippet('comments-list') ?>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+    
 
     <hr />

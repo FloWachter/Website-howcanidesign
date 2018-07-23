@@ -4,8 +4,12 @@ $articles = $page->children()->visible()->sortBy('date', 'desc');
 <section>
     <?php if($articles->count() && $page != $site->homePage()): ?>
     <!-- *********************************************** -->
-    <!-- BLOG ENTIES - ARTICLE -->
+    <!-- BLOG ENTIES - ARTICLE CAtegories -->
     <!-- *********************************************** -->
+    
+    <?php $page->title()->html(); ?>
+
+
     <?php foreach($articles as $article): ?>
         <article class="article index">
             <header>
@@ -13,8 +17,6 @@ $articles = $page->children()->visible()->sortBy('date', 'desc');
                     <a href="<?= $article->url() ?>" class="al"><?= $article->title()->html() ?></a>
                 </h2>
                 <?php
-
-                
                 if($article->image($article->cover_image())):     
                     $image = $article->image($article->cover_image());
                     $image->bla();
@@ -45,6 +47,7 @@ $articles = $page->children()->visible()->sortBy('date', 'desc');
 <!-- NO ENTRY BLOG -->
 <!-- *********************************************** -->
 <article class="article index">
+    
     <header>
         <h2>
             Sorry,
@@ -73,8 +76,6 @@ $count = 0;
                     <a href="<?= $article->url() ?>" class="al"><?= $article->title()->html() ?></a>
                 </h2>
                 <?php
-                
-                
                 
                 if($article->image($article->cover_image())):     
                     $image = $article->image($article->cover_image());

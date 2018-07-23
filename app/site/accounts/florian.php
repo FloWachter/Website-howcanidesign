@@ -9,5 +9,6 @@ password: >
 language: en
 role: admin
 history:
-  - define/moodboards
+  - wiki
   - home
+  - define/moodboards

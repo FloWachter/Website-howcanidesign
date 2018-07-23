@@ -15,7 +15,9 @@
     <?= css('assets/css/main.css') ?>
     <?= js('assets/scripts/vendor/jquery_v331.js') ?> 
     <?= js('assets/scripts/vendor/fancybox.js') ?>
-
+    <!-- BOOTSTRAP -->
+    <?= js('assets/scripts/vendor/collapse.js') ?>
+    <?= js('assets/scripts/vendor/util.js') ?>
 </head>
 
 <body class="<?= $site->navigationtype() ?>">

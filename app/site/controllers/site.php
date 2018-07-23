@@ -5,7 +5,7 @@ return function($site, $pages, $page) {
 	$query   	= get('q');
 	$posts 		= $site->index()->filterBy('intendedTemplate', 'article');
 	$results 	= $posts->visible()->search($query, 'title|tags|date|text|author');
-	$results = $results->paginate(200);
+	//$results = $results->paginate(200);
 
   return array(
     'query'      => $query,
@@ -14,6 +14,3 @@ return function($site, $pages, $page) {
   );
 
 };
-
-
-

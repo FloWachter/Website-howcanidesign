@@ -38,3 +38,11 @@ florian, 2018-07-23 18:58:26, Updated page define/moodboards, text
 florian, 2018-07-23 18:59:03, Updated page define/moodboards, tags
 florian, 2018-07-23 18:59:08, Updated page define/moodboards, 
 florian, 2018-07-23 19:02:13, Deleted page implement/example-article, 
+florian, 2018-07-23 19:39:30, Updated page define/moodboards, text
+florian, 2018-07-23 19:39:56, Updated page define/moodboards, text
+florian, 2018-07-23 19:40:21, Updated page define/moodboards, 
+florian, 2018-07-23 20:48:36, Changed site options, description
+florian, 2018-07-23 20:48:37, Changed site options, 
+florian, 2018-07-23 20:49:41, Updated page home, text
+florian, 2018-07-23 20:50:12, Updated page wiki, 
+florian, 2018-07-23 20:50:43, Updated page wiki, title

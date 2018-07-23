@@ -68,7 +68,7 @@ Text:
 ##Example moodboard
 
 (imageslider: 0_xbon63x-nszexjpw.jpg gallery:moodboard  caption:https://cdn-images-1.medium.com/max/1600/0*xbON63x-nSZeXjPw.jpg)
- (Link: https://uxplanet.org/design-mood-7-motives-to-create-mood-boards-b81ae36e399f text:See More at the bottom of the article)
+ (link:https://uxplanet.org/design-mood-7-motives-to-create-mood-boards-b81ae36e399f text:Read More at the bottom of the article)
 
 ----
 
