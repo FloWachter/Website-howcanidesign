@@ -12,16 +12,16 @@
     <link rel="shortcut icon" href="<?php echo $site->url() ?>/assets/images/favicon.ico" type="image/x-icon" />
 
     <?= css('assets/fonts/font-face.css') ?>
-    
     <?= css('assets/css/main.css') ?>
     <?= js('assets/scripts/vendor/jquery_v331.js') ?> 
     <?= js('assets/scripts/vendor/fancybox.js') ?>
-    
-    
-    
+
 </head>
 
 <body class="<?= $site->navigationtype() ?>">
+    <!-- TO PROTECT THE PAGE WHEN NOT LOGGIN IN -->
+    <?php if(!$site->user()) go('/login') ?>
+
     <aside>        
         <?php snippet('menu') ?>
     </aside>
@@ -35,9 +35,7 @@
                 <div class="bar"></div>
             </div>
         </div>
-
     </header>
-
 <div id="canvas">
         <!-- body -->
         <div id="container">

@@ -8,5 +8,5 @@ Intro:
 
 Text: 
 
-## Hello, 
-This is a collection of Design models, summaries, ect.
+## Hello, (user:)
+This is your collection of Design knowledge.

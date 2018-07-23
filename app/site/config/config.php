@@ -78,3 +78,40 @@ c::set('logger.translation', [
   'time'         => 'Time',
   'action'       => 'Action'
 ]);    
+
+
+/*
+---------------------------------------
+kirby Frontend Login
+---------------------------------------
+Link: https://getkirby.com/docs/cookbook/authentication#user-management
+*/
+c::set('roles', array(
+  array(
+    'id'      => 'admin',
+    'name'    => 'Admin',
+    'default' => true,
+    'panel'   => true
+  ),
+  array(
+    'id'      => 'editor',
+    'name'    => 'Editor',
+    'panel'   => true
+  ),
+  array(
+    'id'      => 'client',
+    'name'    => 'Client',
+    'panel'   => false
+  )
+));
+
+// for logout
+c::set('routes', array(
+  array(
+    'pattern' => 'logout',
+    'action'  => function() {
+      if($user = site()->user()) $user->logout();
+      go('login');
+    }
+  )
+));

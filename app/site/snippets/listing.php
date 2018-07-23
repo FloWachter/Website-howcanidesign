@@ -2,10 +2,10 @@
 $articles = $page->children()->visible()->sortBy('date', 'desc');
 ?>
 <section>
+    <?php if($articles->count() && $page != $site->homePage()): ?>
     <!-- *********************************************** -->
     <!-- BLOG ENTIES - ARTICLE -->
     <!-- *********************************************** -->
-    <?php if($articles->count() && $page != $site->homePage()): ?>
     <?php foreach($articles as $article): ?>
         <article class="article index">
             <header>
@@ -39,10 +39,11 @@ $articles = $page->children()->visible()->sortBy('date', 'desc');
     <?php endforeach ?>
 <?php endif ?>
 
+
+<?php if(!$articles->count() && $page != $site->homePage()): ?>
 <!-- *********************************************** -->
 <!-- NO ENTRY BLOG -->
 <!-- *********************************************** -->
-<?php if(!$articles->count() && $page != $site->homePage()): ?>
 <article class="article index">
     <header>
         <h2>
@@ -55,14 +56,14 @@ $articles = $page->children()->visible()->sortBy('date', 'desc');
 </article>
 <?php endif ?>
 
-<!-- *********************************************** -->
-<!-- HOME PAGE -->
-<!-- *********************************************** -->
 <?php if(!$articles->count() && $page == $site->homePage()): ?>
 <?php 
 $lastArticles = $site->pages()->children()->sortBy('date', 'desc'); 
 $count = 0;
 ?>
+<!-- *********************************************** -->
+<!-- HOME PAGE -->
+<!-- *********************************************** -->
 <?php foreach($lastArticles as $article): ?>
     <!-- it puplish only the last 5 created articles on the home site -->
     <?php if ($count++ < 5): ?>
@@ -91,6 +92,17 @@ $count = 0;
                     <a href="<?= $article->url() ?>" class="al article-more">&rarr;</a>
                 </p>
             </div>
+
+            <div class=article--tags-sm>
+            <?php 
+                $string = preg_replace('/\.$/', '', $article->tags()); 
+                $array = explode(',', $string); 
+                foreach($array as $value) {
+            ?>
+                    <a class="article--tags--link" href="/search?q=<?php   echo $value . PHP_EOL; ?>"><?php   echo $value . PHP_EOL; ?></a>
+            <?php }?>
+            </div>
+
             <br />
             <p class="article-date">
                 <?= $article->date('F jS, Y') ?>

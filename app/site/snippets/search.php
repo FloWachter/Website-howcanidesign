@@ -1,5 +1,4 @@
 
-<div class="search wrap-fluid">
 <form action="search">
       <input type="search" name="q" value="<?= esc($query) ?>" placeholder='Start Typing'>
       <input type="submit" value="Search">
@@ -15,4 +14,3 @@
   <?php endforeach ?>
 </ul>
 
-</div>

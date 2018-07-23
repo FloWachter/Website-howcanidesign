@@ -1,5 +1,10 @@
 <?php
-
+/*
+--------------------------------------
+Custom Kurby text
+--------------------------------------
+Link: https://getkirby.com/docs/developer-guide/kirbytext/tags
+*/
 
 kirbytext::$tags['imageslider'] = array(
   'attr' => array(
@@ -24,7 +29,6 @@ kirbytext::$tags['imageslider'] = array(
     $class     = $tag->attr('class');
     $aclass = $tag->attr('aclass');
     $caption = $tag->attr('caption');
-    
     
 
     $html = '<figure >';

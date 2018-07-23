@@ -1,0 +1,79 @@
+Title: Moodboards
+
+----
+
+Author: Florian Wachter
+
+----
+
+Cover-image: my-nordic-feeling-inspiration-board.jpg
+
+----
+
+Date: 2018-07-23
+
+----
+
+Text: 
+
+##(link: https://www.invisionapp.com/blog/mood-boards/ text: Invisionapp.com)
+- I collect photos, snaps of design (web, app, print—any source is fair game), color swatches, and typefaces specimens. During this R&D, I’m not just looking for things that are pretty, but for bits and pieces that might help me accomplish my project goals.
+- As you collect bits and pieces for your mood board, take time to study each example for what works, and why you think it works.
+- Mood boarding is even better with a team—get a big group of folks collecting to a shared area, leaving comments and collaborating on each new piece of inspiration. 
+- During the design process, it’s like a style map you can go back and study any time you get lost along the way.
+- During my design process, I study mood boards and design reference material much in the same way I do wireframes. While wireframes help direct my grid and user flow, a mood board helps direct my creativity with imagery, color, and reference.
+- It’s also a great tool for onboarding new designers and team members
+
+##(link: https://www.protofuse.com/blog/details/how-web-design-mood-board-impacts-ux/ text:Protofuse.com)
+###A Moodboard contains:
+- color palette
+- fonts (1 to 3 per mood board)
+- photography/illustration style
+- iconography (if needed)
+- navigation style
+- spatial awareness (or, white space usage)
+- overall contrast (helps emphasize hierarchy & structure)
+
+##(link:https://uxplanet.org/design-mood-7-motives-to-create-mood-boards-b81ae36e399f text:uxplanet.org)
+- Mood boards don’t show the detailed picture of a future project. They are meant to transfer the right mood and bring the emotions expected from a product.
+- Mood boards are useful tool helping designers effectively collaborate with clients and team members
+
+##How to create a mood board
+- Mood boards are a good way to experiment with a color palette, fonts, and style as well as plan visual hierarchy of a project. 
+
+###Free collage
+- A free college consisting of beautiful photos is an effective way to transfer a mood of the design concept. Also, collages can be filled with illustrations, fonts, and color examples.
+- This type of mood boards is the fastest and the easiest among the others. 
+(imageslider: 0_ke5ak2nqwsutno9u.jpg gallery:moodboard  caption:https://cdn-images-1.medium.com/max/1600/0*ke5aK2NQwsUTno9U.jpg )
+
+###Reference collection
+- Another source of inspiration and a method for idea visualization is quality references. There are plenty resources such as Behance and Dribbble where designers can find inspiring concepts and real projects with a free access. 
+- Collection of design works united by a common style or any other feature can easily illustrate an idea for a new project.
+
+###Template board
+- These mood boards are more like prototypes and wireframes. Their aim is to show the structure and visual hierarchy of a product
+- Components are shown via random illustrations and photos presenting a layout of a digital product.
+
+(imageslider: 0_xvefwkw2oub2tris.jpg gallery:moodboard  caption:https://cdn-images-1.medium.com/max/1600/0*xVefWkw2Oub2TRis.jpg)
+
+##Why should UI/UX designers create mood boards?
+1. To save time and effort.
+2. To get inspired.
+3. To find a right color palette.
+4. To enhance communication with customers.
+5. To talk less and show more.
+6. To find a style for a design.
+7. To involve clients in a process.
+
+##Example moodboard
+
+(imageslider: 0_xbon63x-nszexjpw.jpg gallery:moodboard  caption:https://cdn-images-1.medium.com/max/1600/0*xbON63x-nSZeXjPw.jpg)
+ (Link: https://uxplanet.org/design-mood-7-motives-to-create-mood-boards-b81ae36e399f text:See More at the bottom of the article)
+
+----
+
+Tags: moodboard,inspiration,mood
+
+----
+
+Related: 

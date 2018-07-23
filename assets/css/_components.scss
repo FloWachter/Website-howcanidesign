@@ -12,14 +12,20 @@
 //plugin
 @import 'plugins/_comments';
 
+//libraries
+@import 'libraries/_fancybox';
+
+
 // Components
 @import 'components/_grid';
 @import 'components/_typography';
 @import 'components/_navicon';
 @import 'components/_elements';
-@import 'components/_fancybox';
 @import 'components/_animsition';
 
+
+//frameworks
+@import 'bootstrap/bootstrap-grid.scss';
 
 
 // Make sure this is last to override anything else :)

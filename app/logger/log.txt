@@ -2,3 +2,39 @@ admin, 2018-07-18 17:38:51, Created page how-to-implement/example-article,
 admin, 2018-07-18 17:41:25, Updated page how-to-implement/example-article, date|text
 admin, 2018-07-18 17:41:31, Updated page how-to-implement/example-article, title|tags
 admin, 2018-07-18 17:50:18, Updated page how-to-implement/fibonacci-for-design, 
+admin, 2018-07-23 09:03:09, Updated page how-to-empathize, title
+admin, 2018-07-23 09:03:16, Moved page how-to-empathize to empathize, 
+admin, 2018-07-23 09:03:25, Moved page how-to-define to define, 
+admin, 2018-07-23 09:03:27, Updated page define, title
+admin, 2018-07-23 09:03:34, Moved page how-to-ideate to ideate, 
+admin, 2018-07-23 09:03:42, Updated page ideate, title
+admin, 2018-07-23 09:03:49, Moved page how-to-prototype to prototype, 
+admin, 2018-07-23 09:03:50, Updated page prototype, title
+admin, 2018-07-23 09:04:05, Moved page how-to-test to test, 
+admin, 2018-07-23 09:04:08, Updated page test, title
+admin, 2018-07-23 09:04:18, Moved page how-to-implement to implement, 
+admin, 2018-07-23 09:04:19, Updated page implement, title
+admin, 2018-07-23 09:08:30, Updated page home, text
+admin, 2018-07-23 09:09:03, Updated page home, text
+admin, 2018-07-23 09:09:59, Updated page home, text
+admin, 2018-07-23 09:10:29, Updated page home, text
+admin, 2018-07-23 09:26:51, Updated page home, text
+admin, 2018-07-23 09:27:09, Updated page home, text
+florian, 2018-07-23 09:28:33, Updated page home, text
+florian, 2018-07-23 18:40:10, Created page define/moodboards, 
+florian, 2018-07-23 18:41:13, Uploaded file define/moodboards/my-nordic-feeling-inspiration-board.jpg, 
+florian, 2018-07-23 18:46:18, Updated page define/moodboards, author|cover_image|date|text
+florian, 2018-07-23 18:50:56, Uploaded file define/moodboards/0_ke5ak2nqwsutno9u.jpg, 
+florian, 2018-07-23 18:51:11, Updated page define/moodboards, text
+florian, 2018-07-23 18:52:49, Updated page define/moodboards, text
+florian, 2018-07-23 18:52:52, Updated page define/moodboards, text
+florian, 2018-07-23 18:54:46, Uploaded file define/moodboards/0_xvefwkw2oub2tris.jpg, 
+florian, 2018-07-23 18:55:24, Updated page define/moodboards, text
+florian, 2018-07-23 18:55:29, Updated page define/moodboards, 
+florian, 2018-07-23 18:57:02, Uploaded file define/moodboards/0_xbon63x-nszexjpw.jpg, 
+florian, 2018-07-23 18:57:07, Updated page define/moodboards, text
+florian, 2018-07-23 18:57:55, Updated page define/moodboards, text
+florian, 2018-07-23 18:58:26, Updated page define/moodboards, text
+florian, 2018-07-23 18:59:03, Updated page define/moodboards, tags
+florian, 2018-07-23 18:59:08, Updated page define/moodboards, 
+florian, 2018-07-23 19:02:13, Deleted page implement/example-article, 
