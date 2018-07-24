@@ -7,4 +7,4 @@
     <input type="text" class="search-input" placeholder="Search…">
     <div class="search-results"></div>
   </form>
-</div>
+</div>		

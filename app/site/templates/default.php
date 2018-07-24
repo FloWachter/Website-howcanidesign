@@ -1,7 +1,14 @@
 <?php snippet('header') ?>
 
 <div class="wrap-fluid">
+   
+
+
    <?php snippet('listing') ?>
+
+
+
+   
     <!-- Pagaination -->
     <?php if( page() ): ?>
         <?php if($page->hasNextVisible() ): ?>
