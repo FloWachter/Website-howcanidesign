@@ -1,0 +1,26 @@
+Title: Fibonacci Design Grid
+
+----
+
+Author: Florian Wachter
+
+----
+
+Cover-image: 
+
+----
+
+Date: 2018-07-25
+
+----
+
+Text: 
+
+##12 column grid & Fibonacci
+This is more like an experiment but how does it look like to use a 12 column grid and all gabs and sizes vertically are orientatet by Fibonacci?
+
+More stuff comming soon...
+
+----
+
+Tags: Fibonacci,grid

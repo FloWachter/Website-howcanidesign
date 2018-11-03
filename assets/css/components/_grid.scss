@@ -1,16 +1,5 @@
 $grid-columns: 12;
 
-// --------------------------------------------------------------
-// horizontal breakpoints
-// --------------------------------------------------------------
-// Breakpoint Mobile
-$bm: "only screen and (max-width: 61em)";
-// Breakpoint Desktop
-$bd: "only screen and (min-width: 61em)";
-$bdlg: "only screen and (min-width: 1400px)";
-$bt: "only screen and (min-width: 61em) and (max-width: 1260px)";
-// --------------------------------------------------------------
-
 %clearfix {
 	*zoom: 1;
 	&:before,
@@ -49,14 +38,14 @@ img {
 	float: left;
 	margin: 0 $sp1;
 	width: 50%;
-	@media #{$bm} {
+	@include mobile {
 		width: auto;
 	}
 }
 
-.row {
-	@extend %clearfix;
-}
+// .row {
+// 	@extend %clearfix;
+// }
 
 [class*='col-'] {
 	float: left;
@@ -65,7 +54,7 @@ img {
 	min-height: 1px;
 }
 
-@media #{$bd} {
+@include desktop {
 	@for $i from 1 through $grid-columns {
 	  	.col-#{$i} {
 	  		width: 100% / $grid-columns * $i;
@@ -74,6 +63,8 @@ img {
 	  	}
 	}
 }
+
+
 
 .centered {
 	float: none;

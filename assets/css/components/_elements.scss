@@ -42,7 +42,7 @@ blockquote {
 	&:after {
 		margin-top: 16px;
 		content: " • ";
-		@media #{$bm} {
+		@include mobile {
 			margin-top: 10px;
 		}
 	}
@@ -59,7 +59,7 @@ pre {
 	font-family: $ff3;
 	font-size: 12px;
 	font-weight: bold;
-	@media #{$bm} {
+	@include mobile {
 		padding: rem-calc(20px);
 	}
 	p:first-child {
@@ -72,4 +72,12 @@ pre {
 
 code {
 	font-family: $ff3;
+}
+
+// -------------------------------------------------------
+// Separators
+// -------------------------------------------------------
+
+img {
+	margin: $sp2 0;
 }

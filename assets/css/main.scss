@@ -1,46 +1,29 @@
 @import '_components';
 
-*,
-*:before,
-*:after {
-	box-sizing: border-box;
-}
+// *,
+// *:before,
+// *:after {
+// 	box-sizing: border-box;
+// }
 
 html {
-	background: $bgr1;
-}
-body {
-	color: $c2;
-	z-index: 0;
+	//background: $bgr1;
+	position: relative;
+	height: 100%;
+
 }
 
-img {
-	margin: $sp2 0;
+body {
+	position: relative;
+	color: $c2;
+	z-index: 0;
+	height: 100%;
+	
 }
 
 // ---------------------------------------------------------
 // Anchors
 // ---------------------------------------------------------
-a {
-	color: $c1;
-	text-decoration: none;
-	border-bottom: 3px solid $ca1;
-	transition: .2s all ease;
-	&:hover {
-		color: inherit;
-		border-color: $ca2;
-	}
-	&:active {
-		opacity: .5;
-		color: inherit;
-	}
-	&:link {
-		color: inherit;
-	}
-	&:visited {
-		color: inherit;
-	}
-}
 
 #canvas a {
 	color: $c1;
@@ -65,6 +48,7 @@ a {
 
 #canvas {
 	background: #fff;
+	//padding-top: $sp1;
 	padding-top: $sp1;
 	z-index: 2;
 	height: 100%;
@@ -99,8 +83,9 @@ aside {
 	position: fixed;
 	z-index: 1000;
 	width: 100%;
+	height: auto;
 	margin: 0;
-	padding: $sp1/4 0 $sp1/4 0;
+	padding: $sp1/8 0 $sp1/8 0;
 	//margin-bottom: $sp2;
 	font-size: $fs2;
 	color: $c1;
@@ -110,6 +95,11 @@ aside {
 	background-color: rgba(255,255,255,0.99);
 	box-shadow: 0 3px 6px rgba(0,0,0,0.06), 0 3px 6px rgba(0,0,0,0.13);
 	transition: transform .4s cubic-bezier(0.2,0.3,0.25,0.9);
+	
+	@include mobile {
+		font-size: $fs2-m;
+	}
+
 	.nav-open & {
 		transform: translate3d(-$offcanvasMenu, 0, 0);
 	}
@@ -151,6 +141,7 @@ aside ul.menu {
 			text-align: left;
 			padding: $sp2/2;
 			display: inline-block;
+			text-transform: uppercase;
 			border: 0;
 			font-size: $fs3;
 			color: #fff;
@@ -196,7 +187,7 @@ aside ul.menu {
 // Articles
 // ---------------------------------------------------------
 .article {
-	@media #{$bd} {
+	@include desktop {
 		width: 90%;
 	}
 }
@@ -246,25 +237,40 @@ aside ul.menu {
 // Login
 // ---------------------------------------------------------
 
+.main--login {
+	position: relative;
+	padding-top: $sp1;
+	height: 100%;
+}
+
+.login--headline {
+	margin: 0.8rem 0 1rem 0 !important;
+}
+
+.main--login--wrapper{
+	height: 100%;
+}
+
+.main--login--wrapper--row{
+	height: 100%;
+}
+
+.login--form {
+	background-color: $white
+}
+
+.login--error {
+	color: $red;
+}
+
+.login-btn-submit {
+	margin-top: 1rem;
+}
+
 .user {
 	font-size: 12px;
 	color: rgba(21,21,12,0.4);
-
-}
-
-.login {
-	padding-top: 50%;
-	transform:translate(0%, -50%);
-}
-
-.login--container {
-	
-}
-
-.login--container-item {
-	
 }
 
 
-.login--form {}
-.login--form--item {}
+

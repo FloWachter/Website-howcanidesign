@@ -9,7 +9,9 @@ password: >
 language: en
 role: admin
 history:
+  - >
+    design-develop/horizontal-vs-vertical-scroll
+  - design-develop/fibonacci-design-grid
   - implement
   - wiki
   - home
-  - define/moodboards

@@ -1,7 +1,6 @@
 <?php
 $articles = $page->children()->visible()->sortBy('date', 'desc');
 ?>
-<h1>latst_article</h1>
 <section>
 <?php if(!$articles->count() && $page == $site->homePage()): ?>
 <?php 

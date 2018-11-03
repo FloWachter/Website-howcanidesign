@@ -4,24 +4,24 @@
 *
 **/
 
-.mobile-visible {
-    @media #{$bm} {
-        display: block;
-    }
-}
-.mobile-hidden {
-    @media #{$bm} {
-        display: none;
-    }
-}
+// .mobile-visible {
+//     @media #{$bm} {
+//         display: block;
+//     }
+// }
+// .mobile-hidden {
+//     @media #{$bm} {
+//         display: none;
+//     }
+// }
 
-.desktop-visible {
-    @media #{$bd} {
-        display: block;
-    }
-}
-.desktop-hidden {
-    @media #{$bd} {
-        display: none;
-    }
-}
+// .desktop-visible {
+//     @media #{$bd} {
+//         display: block;
+//     }
+// }
+// .desktop-hidden {
+//     @media #{$bd} {
+//         display: none;
+//     }
+// }

@@ -25,17 +25,3 @@
   transform: translate3d(0, -100%, 0);
   opacity: 1;
 }
-
-
-
-input[type=submit] {
-  
-  border: 0;
-  border-bottom: 3px solid #1fde91;
-
-  &:hover {
-    color: inherit;
-    border-color: $ca2;
-  }
-
-}
