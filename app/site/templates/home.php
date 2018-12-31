@@ -1,20 +1,8 @@
-<?php
-    snippet('header');
-?>
-<div class="wrap-fluid">
-    
-	 <?php snippet('search') ?>
-
- 	<div class="h1">
-        <?= $page->text()->kirbytext() ?>
-    </div>
-    
-    
-
-
-
-
-   
-    <?php snippet('latest_articles') ?>
+<?php snippet('header'); ?>
+<div class="main-wrapper">
+<!-- Breadcrumbs - Not Working Yet -->
+	<?php snippet('breadcrumb') ?>
+<!-- Breadcrumbs - Not Working Yet -->
+	<?php snippet('latest_articles') ?>
 </div>
 <?php snippet('footer') ?>

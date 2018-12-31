@@ -68,3 +68,7 @@ florian, 2018-07-26 10:09:20, Updated page design-develop/horizontal-vs-vertical
 florian, 2018-07-26 10:09:55, Updated page design-develop/horizontal-vs-vertical-scroll, text
 florian, 2018-07-26 10:11:04, Updated page design-develop/horizontal-vs-vertical-scroll, tags
 admin, 2018-11-01 16:32:21, Updated page home, text
+admin, 2018-11-06 20:49:50, Updated page design-develop/fibonacci-design-grid, cover_image
+admin, 2018-12-31 18:14:51, Sorted page design-develop/horizontal-vs-vertical-scroll, 
+admin, 2018-12-31 18:14:53, Sorted page design-develop/fibonacci-design-grid, 
+admin, 2018-12-31 18:14:57, Updated page design-develop, 

@@ -5,19 +5,20 @@
   "main": "gulpfile.js",
   "dependencies": {
     "beepbeep": "^1.2.0",
-    "gulp": "^3.9.0",
     "gulp-connect-php": "0.0.7",
     "gulp-print": "^2.0.1"
   },
   "devDependencies": {
+    "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-clean": "^0.3.1",
     "gulp-exit": "0.0.2",
     "gulp-livereload": "^3.8.1",
     "gulp-plumber": "^1.0.1",
-    "gulp-ruby-sass": "^2.0.6",
+    "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-uglifyjs": "^0.6.2",
+    "node-sass": "^4.10.0",
     "psi": "^2.0.2",
     "run-sequence": "^1.1.5",
     "uglifyjs": "^2.4.11"

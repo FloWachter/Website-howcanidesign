@@ -58,6 +58,10 @@
 
   + .card-link {
     margin-left: $card-spacer-x;
+    @include mobile {
+      margin-left: 0;
+
+    }
   }
 }
 

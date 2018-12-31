@@ -27,6 +27,7 @@
     <aside>        
         <?php snippet('menu') ?>
     </aside>
+    
     <!-- Header -->
     <header class="header wrap-fluid cf" role="banner">
         <div class="wrap-fluid">
@@ -38,7 +39,8 @@
             </div>
         </div>
     </header>
-<div id="canvas">
+
+    <div id="canvas">
         <!-- body -->
         <div id="container">
             

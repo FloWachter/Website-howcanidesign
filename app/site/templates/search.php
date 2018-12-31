@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<div class="wrap-fluid">
+<div class="main-wrapper">
 	<?php snippet('search') ?>	
 </div>
 

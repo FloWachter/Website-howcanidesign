@@ -7,8 +7,8 @@ email: florianwachter@gmx.net
 language: en
 role: admin
 history:
+  - design-develop
+  - design-develop/fibonacci-design-grid
   - home
   - implement
   - test
-  - prototype
-  - ideate

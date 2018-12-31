@@ -7,7 +7,11 @@ var beep                = require('beepbeep')
 var gutil               = require('gulp-util');
 var plumber             = require('gulp-plumber');
 var uglify              = require('gulp-uglifyjs');
-var sass                = require('gulp-ruby-sass');
+
+//var sass                = require('gulp-ruby-sass');
+var sass                = require('gulp-sass');
+sass.compiler           = require('node-sass');
+
 var sourcemaps          = require('gulp-sourcemaps');
 var livereload          = require('gulp-livereload');
 var php                 = require('gulp-connect-php');
@@ -66,17 +70,25 @@ gulp.task('vendorJS', function() {
 });
 
 // Sass
-gulp.task('sass', function() {
-    return sass('./assets/css/main.scss', { sourcemap: true, style: 'compressed' })
-    .pipe(plumber({
-        errorHandler: onError
-    }))
+// gulp.task('sass', function() {
+//     return sass('./assets/css/main.scss', { sourcemap: true, style: 'compressed' })
+//     .pipe(plumber({
+//         errorHandler: onError
+//     }))
 
-    .pipe(sourcemaps.write())
-    .pipe(gulp.dest('./app/assets/css/'))
-    .pipe(livereload());
+//     .pipe(sourcemaps.write())
+//     .pipe(gulp.dest('./app/assets/css/'))
+//     .pipe(livereload());
+// });
+
+gulp.task('sass', function () {
+ return gulp.src('./assets/css/main.scss')
+  .pipe(sourcemaps.init())
+  .pipe(sass().on('error', sass.logError))
+  .pipe(sourcemaps.write())
+  .pipe(gulp.dest('./app/assets/css/'))
+  .pipe(livereload());
 });
-
 
 // autoprefix
 gulp.task('autoprefixer', function () {
