@@ -16,8 +16,9 @@
 		</div>
 		
 		<div class="col-4">
+
 			<!-- SEARCH BTN -->
-			<button type="button" class="btn btn-light search-btn" onclick="location.href='/search'">
+			<button type="button" class="btn btn-light search-btn" onclick="location.href='<?php echo $site->url() ?>/search'">
 				<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
 					<title>
 						search
