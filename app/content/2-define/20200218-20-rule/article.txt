@@ -1,0 +1,78 @@
+Title: 80/20 Rule
+
+----
+
+Author: Pareto Principle
+
+----
+
+Cover-image: 
+
+----
+
+Date: 2020-02-18
+
+----
+
+Text: 
+
+https://uxdesign.cc/ux-fundamentals-pareto-principle-the-80-20-rule-that-every-designer-should-know-7f98d1ac28d6
+
+# 80/20 Rule
+
+Pareto principle is the rule that states 80% of the effects are caused by 20% of causes.
+“For many events, roughly 80% of the effects come from 20% of the causes” ― Vilfredo Pareto
+If you think about it, this principle can be applied to most of your everyday life. I bet you tend to wear regularly just 20% of your clothes 80% of the time and out of everything you own.
+Other examples of the Pareto Principle:
+
+- 80% of traffic jam is on 20% of the roads
+- 80% of a product’s bugs are caused by 20% of its components
+- 80% of work is done by 20% from our productive time
+
+#How does it relate to Design?
+If you are a product designer or a UX designer you should consider the 80/20 principle in your everyday work. This rule can be used in different areas within user experience design to enhance workflows and processes.
+Your goal when using the Pareto Principle is twofold:
+
+-* Highlighting your most valuable features.*The sooner you understand which features of your product are most valued the better. Cramping your products with as many features as possible will only denigrate the user experience.
+
+- *You can understand which features work and which don’t.* Being an 80/20 principle you can understand which features may not turned out to be as impactful as you thought they would be (80) or which features are either being used mostly or have potential can be improved (20).
+
+
+How to identify the 20%?
+Whenever you have quantitative data — you may be able to apply the Pareto Principle. It’s simply a question of grouping that data and seeing how large a section of your audience is affected by any given unit of data.
+1. Use Analytics
+Use analytics to determine the top 20% of things your users use the most. Using tools like Google Analytics to identify the most important and most frequently used elements on your website.
+Prioritize the key aspects that are responsible for generating the biggest percentage of results and optimize whatever elements you have identified as being responsible.
+Simplify the user experience of your website without losing any quality of design.
+Wherever there is data that can be quantified there’s the possibility that you can use this rule to focus your efforts on the areas of your work that bring the most results.
+This helps you feature prioritization. Prioritize user’s choices that are used often. Generally, people are more likely to select the same options that they previously used.
+For example, in an online shop app, let people have an option to put a default address. This way they won’t have to type their details every time they want to purchase something.
+It is always a good rule to make users not search for there preferred habits each and every time they use our product.
+
+Selecting a default address in the Uber app
+2. Conduct user research
+Focus your user research on your top user journeys. What are the top 20% of things that 80% of people use your website, software or app for? It is always a good choice to improve on the features that are really working out for you. And to do that you need to gather research on your target users, their needs and goals.
+By applying the Pareto Principle to user research, you can identify the top percentage of your product’s usability issues and feature gaps, then jump in and fix them.
+Jeff Sauro — the founding principal of MeasuringU, and a pioneer in quantifying the user experience — said it quite clearly:
+“The principle was startlingly accurate. Our research showed that 18% of our core product areas were causing 83% of our clients’ frustrations.” — Jeff Sauro
+When focusing on user research you can use a myriad of tools like heuristics, heat maps to understand how people scan content or others.
+3. Usability testing
+Use this to observe how people use your product. When working on a digital product everyone on the team can easily make assumptions on how the users interact with your product. The problem with that is…you’re NOT the user.
+
+This helps you:
+Knowing where to put your focus — very often in-depth knowledge can blind designers, product owners and everyone working on the team to the product’s usability issues. That’s why bringing in real users to test your digital product and/or observing how real people are already using it are effective ways to help identify where to put your focus.
+Usability testing is done by real-life users, who are likely to reveal issues that people familiar with a product can no longer identify. Observing people’s behavior while using your product gives you an idea of what they focus most on while actually using the product.
+Summarizing this principle
+The Pareto Principle can be very effective in helping you make decisions in your work. From analytics and research to a higher level like project management.
+Summarizing this principle:
+80% of outputs come from only 20% of the inputs
+80% of all consequences come from only 20% of causes
+80% of your results come from only 20% of your effort and time
+80% of your company’s profits come from only 20% of the products and customers
+And don’t forget it can also be applied to our real lives:
+Which 20% of your current efforts are resulting in 80% of your desired outcomes and happiness?
+Which 20% of your current efforts are causing 80% of your problems and unhappiness?
+
+----
+
+Tags: 

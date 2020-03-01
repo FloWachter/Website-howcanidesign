@@ -9,9 +9,8 @@ password: >
 language: en
 role: admin
 history:
-  - >
-    design-develop/horizontal-vs-vertical-scroll
-  - design-develop/fibonacci-design-grid
+  - ui-design/fibonacci-design-grid
+  - ui-design/horizontal-vs-vertical-scroll
+  - ui-design
+  - development
   - implement
-  - wiki
-  - home

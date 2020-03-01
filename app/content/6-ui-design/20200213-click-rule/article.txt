@@ -1,0 +1,28 @@
+Title: 3 Click Rule (Right or Wrong)
+
+----
+
+Author: Florian Wachter
+
+----
+
+Cover-image: 
+
+----
+
+Date: 2020-02-13
+
+----
+
+Text: 
+
+#They go beyond the 3-click rule.
+—
+The 3-click rule states that users should be able to find what they want in three clicks. The theory assumes that the users need to click, the less the users will like the site and subsequently, they will move off to “easier” sites.
+The fact is that this concept is wrong. Joshua Porter conducted a series of tests that showed no correlation between user dissatisfaction and the number of clicks, and that users were no more likely to give up after three clicks than they were after ten.
+And in spite of this, designers fall into this trap and try to load everything upfront in the UI so that everything is covered. This results in cumbersome and confusing UI which does more harm than good. Instead, a good UI design should strive to make each click count rather than putting a limit of three clicks. Chas Grundy calls this the ‘one-click’ rule which states that every user should be one step nearer to his destination after every click thus making every click functional.
+Remember what really counts to a user is the ease of navigation. The user will never mind the number of clicks as long as he is able to get to the information he wants in an organized way.
+
+----
+
+Tags: Methodology,Rules,Research

@@ -1,0 +1,186 @@
+Title: UX metrics
+
+----
+
+Author: uxforthemasses
+
+----
+
+Cover-image: 
+
+----
+
+Date: 2018-05-01
+
+----
+
+Text: 
+
+6 key UX metrics to focus on
+(Link: http://www.uxforthemasses.com/ux-metrics/ Text: 6 UX metrix to foxus on)
+
+You know that you should be tracking UX metrics for your products and services. After all, if you don’t measure the UX, how do you know how its performing? How do you know if a design change is for the better, or for the worse? How can you justify investing in UX, if you can’t measure the benefits?
+
+The thing is, there is an awful lot you could measure. The number of potential UX metrics is ever growing. CXPartners have listed a whopping 127 in their big list of UX KPIs and Metrics and as they quite rightly point out, it would be crazy to try to measure, let alone factor in all 127. So, which ones should you focus on? To help navigate this measurement maze, I’ve outlined 6 key UX metrics that I believe should be at the top of your list.
+[...]
+
+#More ...
+https://www.cxpartners.co.uk/our-thinking/big_list_of_ux_kpis_and_metrics/
+
+Don’t forget, for a metric to be useful it must have:
+
+A timescale
+A benchmark
+A reason to be reported
+An associated action
+So without further ado here is a big list of things you could measure. Hope you find it useful.
+
+Any suggestions you have let me know on Twitter, I'm @mrjoe
+
+Classic
+Conversion (sales / visits)
+Product page conversion (sales / visits to product page)
+Funnel analysis
+Basket abandonment
+Bounce rate
+Sales
+Leads
+Subscribers
+Unique visitors
+Returning visitors
+Page views per visit
+Visit to order ratio
+Load time
+Registrations
+Visit / session length
+Page views per visit
+Time on page
+Time on site
+Form abandonment
+Failed internal search
+Referring pages / links
+Geographic locations
+Print page
+Banners
+Click through rate
+Impressions
+Financial / sales / business
+Average order value
+Basket value
+Profit margin
+Average sales price
+Cross sell
+Gross margin
+Category margin
+Cost per lead
+Customer acquisition cost
+Lifetime customer value
+Average customer value
+Membership / subscription churn
+RSS
+Feedburner subscriptions
+Shares on Google Reader
+Call / customer contact centre
+Average call length
+Support vs sales calls
+Inbound vs outbound calls
+Web generated calls (unique number on website)
+Web fulfilled information calls
+SEO
+SEM keyword value
+SEO positioning
+Changes in SERP results/rankings
+Top entry pages
+Number of keywords triggering results for your site
+Number of clicks to your site from keywords
+Google trends
+Inbound links (back link discovery)
+Percentage share of each engine
+Branded vs non*branded searches
+Affiliate links
+Affiliate fees
+Social media
+Facebook referrals
+Incoming Twitter links
+Facebook sends/shares/mentions
+Facebook likes
+Facebook fans
+Facebook fan rates
+Tweets
+Retweets
+@s on Twitter
+Twitter followers
+Twitter follow rate
+Google +1s
+Bookmarks on Delicious
+StumbleUpon thumbs up
+StumpleUpon reviews
+Diggs
+Google BlogSearch links
+Blog comments
+Blog articles
+Video views
+Youtube favourites
+Youtube channel subscriptions
+Youtube channel comments
+Youtube video reviews
+Slideshare views
+Forum mentions
+Thread size
+Online review mentions
+Stars in reviews
+Bit.ly / URL shorteners usage / clicks
+Third party / benchmarks
+Comscore
+Hitwise
+Alexa
+Compete (US)
+Email & campaigns
+Email newsletter churn
+Email sign-up
+Emails sent
+Emails bounced (bad address)
+Email forwards
+Email campaigns
+Open rate
+Delivery rate (sent - bounces)
+Click through rate (CTR)
+Email related to conversion / other metric
+Unsubscribe rate
+SMS subscribers
+Via print publication / 3rd party (unique URLs)
+Internal search
+Search no results
+# Search 1 to 10 results
+# Search 10 to 25 results
+# Search over 50 results
+
+#IA:
+GOMS technique
+Time to content
+Clicks to content
+Back button clicks
+Task completion
+Errors
+
+#User testing metrics:
+Words Recognition Rate
+Reported expectations and performance
+Facial reaction
+Number of back presses
+Gap satisfaction
+Path’s taken as a measure of scent
+Work-flow matches mental model or not
+
+#Satisfaction measurements:
+Net Promoter Score
+ASQ PDF: After Scenario Questionnaire (3 Questions)
+NASA-TLX : NASA’s task load index is a measure of mental effort (5 Questions)
+SMEQPDF: Subjective Mental Effort Questionnaire
+UMEPDF : Usability Magnitude Estimation
+SEQ PDF: Single Ease Question
+SUS: System Usability Scale or sometimes the Single usability score (why it needs two names I don't know)
+
+----
+
+Tags: Methodolgy,questionier,metrix,messure

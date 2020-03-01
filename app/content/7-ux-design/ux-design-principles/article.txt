@@ -1,0 +1,47 @@
+Title: UX design principles
+
+----
+
+Author: 
+
+----
+
+Cover-image: the-ux-pyramid.png
+
+----
+
+Date: 2020-02-19
+
+----
+
+Text: 
+
+https://syndicode.com/uiux-design/
+
+
+
+#UX design principles and full UX stack
+The goals on each level of the UX design pyramid could be reached through following the main UX design principles:
+
+#Hierarchy
+Hierarchy is one of the designers’ best tools to help users move through a product easily. It includes:
+Information Architecture (the way how content is organized across the app or site) and a
+Visual Hierarchy (that help users navigate more easily within a section or a page).
+
+#Consistency
+In most cases, it could be reached by using a formal set of guidelines for how to design products for a particular device or format.
+Confirmation
+Require confirmation for any important or irreversible action to prevent errors user can accidentally make.
+
+#User Control
+‘Undo’, ‘back’, ‘search’ buttons, as well as keyboard shortcuts, are a great way to give a user the control over a website or an application.
+
+#Accessibility
+It’s crucial for the product to easy-to-use by as many people as possible. UX design should remove the obstacles for people when they use the product, whether those obstacles are temporary or more permanent.
+
+
+UX design balances business, people and technology. While it is true that a product cannot succeed without a healthy business, a business cannot succeed without a happy customer— and it is the UX Designer’s job to make the customer happy.
+
+----
+
+Tags: 

@@ -7,9 +7,15 @@ $articles = $page->children()->visible()->sortBy('date', 'desc');
   $lastArticles = $site->pages()->children()->sortBy('date', 'desc'); 
   $count = 0;
   ?>
+  <!-- *********************************************** -->
+  <!-- HOME PAGE -->
+  <!-- *********************************************** -->
   <?php foreach($lastArticles as $article): ?>
     <!-- it puplish only the last 5 created articles on the home site -->
     <?php if ($count++ < 5): ?>
+
+
+
       <article class=" card mb-4 mt-4" >        
         <?php
         if($article->image($article->cover_image())):     
@@ -43,6 +49,8 @@ $articles = $page->children()->visible()->sortBy('date', 'desc');
         </p>
       </div>
     </article>  
+
+
 
   <?php endif ?>
 <?php endforeach ?>

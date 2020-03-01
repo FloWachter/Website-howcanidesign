@@ -1,0 +1,37 @@
+Title: UX audits
+
+----
+
+Author: uxdesign
+
+----
+
+Cover-image: 
+
+----
+
+Date: 2020-02-18
+
+----
+
+Text: 
+
+https://uxdesign.cc/trends-to-keep-an-eye-in-2020-8cf09b30f77f
+
+#UX audits
+
+A UX audit helps the management team to cross-examine the performance of digital content with industry standards and whether it is in line with the latest trends and technology. Similarly to a financial audit, the main objective of a design audit is to provide an independent opinion to all stakeholders on the effectiveness and honesty of the design of the platform.
+
+#Dark Patterns
+Most tech companies are finding subtle ways to keep us engaged with their products, and exploiting addictive tendencies through design is one of the commonly used methods. If it’s leveraging user psychology to improve their overall experience in order to increase engagement and conversion — then that’s fine by all means.
+But if a company is using dark methods like; deliberate misdirection, spamming, forced continuity, invisible links, etc, then that’s just pure fraud. A design audit would be a good way to judge if a company is being deceptive and manipulating users for their own benefits:
+Is it hard for the user to get out of a certain situation (subscription plan)?
+
+>Does the design use confusing colors to influence the user’s decision?
+>Does the design use trick questions to manipulate the user?
+>Does the design mislead the user’s focus?
+>Does the design use guilt-tripping copy to influence the user?
+
+----
+
+Tags: audits,maintain,support,fix

@@ -1,19 +1,22 @@
-<div class="">
+<div>
 	<div class="row">
 		<div class="col-8">
-			<nav aria-label="breadcrumb">
-				<ol class="breadcrumb">
-		            <?php foreach($site->breadcrumb() as $crumb): ?>
-				    <li class="breadcrumb-item">
-				      <a href="<?= $crumb->url() ?>">
-				        <?= html($crumb->title()) ?>
-				      </a>
-				    </li>
-				    <?php endforeach ?>
-				</ol>
+			<!-- Breadcrumbs -->
+			<nav  aria-label="breadcrumb" class="breadcrumb" role="navigation">
+			  <ol class="breadcrumb">
+			    <?php foreach($site->breadcrumb() as $crumb): ?>
+			    <li class="breadcrumb-item" >
+			      <a href="<?= $crumb->url() ?>">
+			        <?= html($crumb->title()) ?>
+			      </a>
+			    </li>
+			    <?php endforeach ?>
+			  </ol>
 			</nav>
 		</div>
+		
 		<div class="col-4">
+			<!-- SEARCH BTN -->
 			<button type="button" class="btn btn-light search-btn" onclick="location.href='/search'">
 				<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
 					<title>
