@@ -1,14 +1,22 @@
  <article class="article index">
         <header>
-            <h1><?= $page->title()->kirbytext() ?></h1>
-            <?php
-                if($page->image($page->cover_image())):     
-                    $image = $page->image($page->cover_image());
-                    ?>
-                    <figure>
-                        <img src="<?= $image->focusCrop(400, 200)->url() ?>" class="thumb-home" alt="">
-                    </figure>
-                <?php endif ?>
+            <h1><?= $page->title()->kirbytext() ?></h1>        
+
+            <div class="article--edit-btn">
+                <a class="btn btn-outline-info" href="<?=  url('panel') . '/pages/' . $page->uri() . '/edit' ?>">Edit</a>
+            </div>
+            <?php if($page->image($page->cover_image())):     
+                $image = $page->image($page->cover_image());?>
+                <!-- check if content is image -->
+                <figure>
+                    <img src="<?= $image->focusCrop(400, 200)->url() ?>" class="thumb-home" alt="">
+                </figure>
+            <?php endif ?>
+
+            <?php if(Str::isURL($page->sourceWeb())):  ?>   
+                <!-- check if content is url -->
+                <p>Click <a href="<?php echo $page->sourceWeb()->url() ?>">here</a> for the Source information</p>
+            <?php endif ?>
         </header>
         <div class="text">
             <?= $page->text()->kirbytext() ?>

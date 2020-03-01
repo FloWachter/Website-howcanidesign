@@ -13,6 +13,10 @@ fields:
     label: Title
     type:  title
 
+  sourceWeb:
+    label: Source Url
+    type: url
+
   author:
     label: Autor
     type:  text

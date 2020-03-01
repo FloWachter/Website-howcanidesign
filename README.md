@@ -7,5 +7,7 @@
 
 #For the github submodule
 
-> git submodule init 
+> git submodule init; 
 > git submodule update
+
+> or: git submodule update --init
