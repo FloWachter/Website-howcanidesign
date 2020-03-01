@@ -255,6 +255,7 @@ aside ul.menu {
 	// @include mobile {
 	// 	width: 100%;
 	// }
+	padding-top: 7%;
 
 }
 
@@ -266,7 +267,13 @@ aside ul.menu {
 }
 
 .search--form {
-	position: relative;
+	//position: relative;
+	position: fixed;
+	top: 7%;
+	z-index: 999;
+	left: 0;
+	padding: 0 $sp1;
+
 	
 }
 

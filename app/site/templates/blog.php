@@ -1,7 +1,8 @@
 <?php snippet('header'); ?>
-<?php snippet('breadcrumb'); ?>
+
 
 <div class="main-wrapper">
+	<?php snippet('breadcrumb'); ?>
     <h1><?= $page->title() ?></h1>
     <div class="h1">
         <?= $page->text()->kirbytext() ?>

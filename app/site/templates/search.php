@@ -1,7 +1,7 @@
 <?php snippet('header') ?>
-<?php snippet('breadcrumb') ?>  
 
 <div class="main-wrapper">
+	<!-- no breadcrumbs neccessary -->
 	<?php snippet('search') ?>	
 </div>
 

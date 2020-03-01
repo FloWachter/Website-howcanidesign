@@ -1,11 +1,11 @@
 <?php snippet('header'); ?>
-<?php snippet('breadcrumb'); ?>  
+
 
 
 <div class="main-wrapper">
-   
-   <?php snippet('listing') ?>
-   
+    <?php snippet('breadcrumb'); ?>     
+    <?php snippet('listing') ?>
+    
     <!-- Pagaination -->
     <?php if( page() ): ?>
         <?php if($page->hasNextVisible() ): ?>

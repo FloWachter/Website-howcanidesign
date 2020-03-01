@@ -2,8 +2,9 @@
 	<div class="row">
 		<div class="col-8">
 			<!-- Breadcrumbs -->
-			<nav  aria-label="breadcrumb" class="breadcrumb" role="navigation">
-				<ol class="breadcrumb">
+			<!-- <nav  aria-label="breadcrumb" class="breadcrumb" role="navigation">
+				<ol class="breadcrumb"> -->
+					<div class="breadcrumb">
 					<?php foreach($site->breadcrumb() as $crumb): ?>
 						<li class="breadcrumb-item" >
 							<a href="<?= $crumb->url() ?>">
@@ -11,12 +12,11 @@
 							</a>
 						</li>
 					<?php endforeach ?>
-				</ol>
-			</nav>
+					</div>
+				<!-- </ol>
+			</nav> -->
 		</div>
-		
 		<div class="col-4">
-
 			<!-- SEARCH BTN -->
 			<button type="button" class="btn btn-light search-btn" onclick="location.href='<?php echo $site->url() ?>/search'">
 				<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">

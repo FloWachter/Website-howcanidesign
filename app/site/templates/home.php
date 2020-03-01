@@ -1,7 +1,8 @@
 <?php snippet('header'); ?>
-<?php snippet('breadcrumb') ?>  
+
 
 <div class="main-wrapper">	
+	<?php snippet('breadcrumb') ?>  
 	<?php snippet('latest_articles') ?>
 </div>
 

@@ -1,11 +1,11 @@
-<div class="search ">
-  <form class="search--form input-group mb-3 mt-3" action="search">
+<form class="search--form input-group mb-3 mt-3" action="search">
     <input type="search" name="q" class="form-control" placeholder='Search' aria-label="Recipient's username" aria-describedby="button-addon2" value="<?= esc($query) ?>">
     <div class="input-group-append">
-      <button class="btn btn-outline-secondary" type="submit" id="button-addon2" value="Search" >Search</button>
+      <button class="btn btn-primary" type="submit" id="button-addon2" value="Search" >Search</button>
     </div>
   </form>
 
+<div class="search ">
   <div class="search-result">
     <?php foreach($results as $result): ?>
       <a href="<?= $result->url() ?>" class="card-link">
