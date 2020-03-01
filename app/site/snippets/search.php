@@ -6,13 +6,14 @@
     </div>
   </form>
 
-
-<div class="search-result">
+  <div class="search-result">
     <?php foreach($results as $result): ?>
       <a href="<?= $result->url() ?>" class="card-link">
         <div class=" card mb-3 mt-3">
           <!-- <img class="card-img-top" src=".../100px180/" alt="Card image cap"> -->
-          <div class="card-img-search" style="background-image: url('<?= $result->image()->url() ?>')"></div>
+          <?php if($result->hasImages()) : ?>
+            <div class="card-img-search" style="background-image: url('<?= $result->image()->url() ?>')"></div>    
+          <?php endif; ?>  
           <div class="card-body">
             <h2 class="card-title mt-1 mb-1"><?= $result->title() ?></h2>
             <p class="card-text">
@@ -37,5 +38,4 @@
       </a> 
     <?php endforeach ?>
   </div>
-
-  </div>
+</div>

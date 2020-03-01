@@ -3,15 +3,15 @@
 		<div class="col-8">
 			<!-- Breadcrumbs -->
 			<nav  aria-label="breadcrumb" class="breadcrumb" role="navigation">
-			  <ol class="breadcrumb">
-			    <?php foreach($site->breadcrumb() as $crumb): ?>
-			    <li class="breadcrumb-item" >
-			      <a href="<?= $crumb->url() ?>">
-			        <?= html($crumb->title()) ?>
-			      </a>
-			    </li>
-			    <?php endforeach ?>
-			  </ol>
+				<ol class="breadcrumb">
+					<?php foreach($site->breadcrumb() as $crumb): ?>
+						<li class="breadcrumb-item" >
+							<a href="<?= $crumb->url() ?>">
+								<?= html($crumb->title()) ?>
+							</a>
+						</li>
+					<?php endforeach ?>
+				</ol>
 			</nav>
 		</div>
 		
