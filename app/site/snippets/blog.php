@@ -12,6 +12,11 @@ $articles = $page->children()->sortBy('date', 'desc');
     <?php foreach($articles as $article): ?>
         <!-- it puplish only the last 5 created articles on the home site -->
 
+
+
+
+              
+
         <article class="article index">
             <header>
                 <h2>
@@ -42,7 +47,9 @@ $articles = $page->children()->sortBy('date', 'desc');
                 $array = explode(',', $string); 
                 foreach($array as $value) {
                     ?>
-                    <a class="article--tags--link" href="/search?q=<?php   echo $value . PHP_EOL; ?>"><?php   echo $value . PHP_EOL; ?></a>
+                    <a class="article--tags--link" href="/search?q=<?php   echo $value . PHP_EOL; ?>"><?php   echo $value . PHP_EOL; ?>
+                        
+                    </a> 
                 <?php }?>
             </div>
 
@@ -51,6 +58,16 @@ $articles = $page->children()->sortBy('date', 'desc');
                 <?= $article->date('F jS, Y') ?>
             </p>
         </article>
+    </a>
+
+
+
+
+
+
+
+
+
     <?php endforeach ?>
 </section>
 
